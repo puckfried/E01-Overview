@@ -18,15 +18,15 @@ Here you will find a continuous overview of the HTML elements and CSS properties
    - [Body Elements](#2-body-elements-the-visible-area-of-your-website)
        - [Block Elements](#21-block-elements-occupy-the-entire-width-of-the-screen)
        - [Inline Elements](#22-inline-elements-only-occupy-the-width-of-their-content)
-       - [Extra: Semantic HTML Elements](#23-semantic-html-elements)
+       <!-- - [Extra: Semantic HTML Elements](#23-semantic-html-elements) -->
 2. [CSS Properties](#css-properties)
-   - [Text Formatting](#text-formatting)
+   <!-- - [Text Formatting](#text-formatting)
    - [Sizes](#sizes)
    - [Margins and Borders](#margins-and-borders)
    - [Background](#background)
    - [Display Property](#display-property)
    - [Flex Properties](#flex-properties)
-   - [Position Property](#position-property)
+   - [Position Property](#position-property) -->
 3. [Useful Keyboard Shortcuts](#useful-keyboard-shortcuts-windows)
 
 <br><br><br>
@@ -74,10 +74,10 @@ So far, we have learned the following elements:
 |:--------------:|:---------------------------------------:|:-----------------------------------:|
 | `<h1>`...`<h6>`| Headings                               | `<h1>Heading</h1>`                  |
 | `<p>`          | Paragraph                              | `<p>Paragraph</p>`                  |
-| `<ul>`         | Unordered list                         | `<ul><li>Element</li></ul>`         |
+<!-- | `<ul>`         | Unordered list                         | `<ul><li>Element</li></ul>`         |
 | `<ol>`         | Ordered list                           | `<ol><li>First Element</li></ol>`   |
 | `<li>`         | List item                              | `<li>List item</li>`                |
-| `<div>`        | Container element                      | `<div>Content</div>`                |
+| `<div>`        | Container element                      | `<div>Content</div>`                | -->
 
 
    
@@ -86,12 +86,12 @@ So far, we have learned the following elements:
 | HTML Element | Description                             | Example                                  |
 |:------------:|:---------------------------------------:|:----------------------------------------:|
 | `<a>`        | Hyperlink (internal, external)          | `<a href="url">Link text</a>`            |
-| `<br>`       | Special empty element for line breaks   | `This is a text<br>new line`             |
+<!-- | `<br>`       | Special empty element for line breaks   | `This is a text<br>new line`             | -->
 | `<img>`      | Insert image                            | `<img src="url" alt="Image description">`|
-| `<button>`   | Button                                  | `<button>button text</button>`           |
+<!-- | `<button>`   | Button                                  | `<button>button text</button>`           | -->
 
 
-#### 2.3 Semantic HTML Elements
+<!-- #### 2.3 Semantic HTML Elements
 
 Semantic HTML elements clearly describe their meaning in a human- and machine-readable way, making them essential for accessibility and SEO. These elements serve as more descriptive containers than non-semantic ones like `<div>`, offering structure and meaning to web content. They are treated as block elements by default. Below is a table outlining some common semantic elements and their purposes.
 
@@ -102,7 +102,7 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 | `footer`  | Defines a footer for a document or section, containing information about the author, copyright, etc. |
 | `section` | Represents a standalone section of content that may be contained within an article or document body. |
 | `article` | Indicates a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable. |
-| `aside`   | Defines some content loosely related to the content around the `aside` element, such as sidebars, advertisements, or call-out boxes. | 
+| `aside`   | Defines some content loosely related to the content around the `aside` element, such as sidebars, advertisements, or call-out boxes. |  -->
 
 
 
@@ -112,7 +112,7 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 **CSS** stands for ***Cascading Style Sheets*** and is used to define the appearance of HTML elements on a webpage. CSS allows various properties such as color, font, and positioning to be defined. By separating content and design, changing the appearance of the website becomes easier as only the CSS needs to be changed without editing the HTML code.
 
 
-### Text Formatting
+<!-- ### Text Formatting
 | Property          | Description                                  | Example                        |
 |-------------------|----------------------------------------------|--------------------------------|
 | `color`           | Sets the text color.                         | `color: blue;`                 |
@@ -120,40 +120,40 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 | `text-decoration` | Adds decorations like underlines.            | `text-decoration: underline;`  |
 | `font-weight`     | Defines the thickness of the font.           | `font-weight: bold;`           |
 | `font-family`     | Determines the font family.                  | `font-family: Arial, sans-serif;`|
-| `font-style`      | Sets the style of the font (e.g., italic).   | `font-style: italic;`          |
+| `font-style`      | Sets the style of the font (e.g., italic).   | `font-style: italic;`          | -->
 
 
-### Sizes
+<!-- ### Sizes
 | Property    | Description                                | Example            |
 |-------------|--------------------------------------------|---------------------|
 | `width`     | Sets the width of an element.              | `width: 100px;`     |
-| `height`    | Determines the height of an element.       | `height: 200px;`    |
+| `height`    | Determines the height of an element.       | `height: 200px;`    | -->
 
-### Margins and Borders
+<!-- ### Margins and Borders
 | Property    | Description                                    | Example                   |
 |-------------|-------------------------------------------------|--------------------------|
 | `margin`    | Defines the outer margin around an element.    | `margin: 10px;`          |
 | `padding`   | Sets the inner padding within an element.      | `padding: 20px;`         |
-| `border`    | Adds a border around the element.              | `border: 1px solid black;`|
+| `border`    | Adds a border around the element.              | `border: 1px solid black;`| -->
 
-### Background
+<!-- ### Background
 | Property          | Description                       | Example                      |
 |-------------------|-----------------------------------|------------------------------|
 | `background-color`| Sets the background color.        | `background-color: yellow;`  |
 | `background-image` | Specifies an image to use as the background of an element.   | `background-image: url('./image.jpg');`   |
 | `background-size`  | Specifies the size of the background images.                 | `background-size: cover;`               |
-| `background-repeat`| Sets how background images are repeated. A background image can be repeated along the axis, not repeated, or stretched. | `background-repeat: no-repeat;`         | 
+| `background-repeat`| Sets how background images are repeated. A background image can be repeated along the axis, not repeated, or stretched. | `background-repeat: no-repeat;`         |  -->
 
-### Display Property
+<!-- ### Display Property
 
 | Value         | Description                                                                                                       |
 |---------------|-------------------------------------------------------------------------------------------------------------------|
 | `inline`      | Displays an element as an inline element, similar to `<span>`. Height and width properties have no effect on it. |
 | `block`       | Displays an element as a block element, similar to `<div>`. It starts on a new line and takes up the full width. |
 | `inline-block`| Combines the behaviors of `inline` and `block`: it does not start on a new line but can have width and height.   |
-| `flex`        | Displays an element as a block-level flex container, facilitating the application of the flexbox layout model.   | -->
+| `flex`        | Displays an element as a block-level flex container, facilitating the application of the flexbox layout model.   |  -->
 
-### Flex Properties
+<!-- ### Flex Properties
 
 For a comprehensive understanding of Flexbox and its capabilities, consider exploring [this detailed guide on CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), which offers in-depth explanations and examples.
 
@@ -162,7 +162,7 @@ For a comprehensive understanding of Flexbox and its capabilities, consider expl
 | `justify-content` | Controls the alignment of items on the main axis (horizontal by default).                           |
 | `align-items`     | Controls the alignment of items on the cross axis (vertical by default).                            |
 | `gap`             | Defines the space between flex items. It applies both row gap and column gap.                       |
-| `flex-wrap`       | Specifies whether flex items are forced onto one line or can wrap onto multiple lines.              |
+| `flex-wrap`       | Specifies whether flex items are forced onto one line or can wrap onto multiple lines.              | -->
 
 
 <!-- ### Position Property
