@@ -74,10 +74,10 @@ So far, we have learned the following elements:
 |:--------------:|:---------------------------------------:|:-----------------------------------:|
 | `<h1>`...`<h6>`| Headings                               | `<h1>Heading</h1>`                  |
 | `<p>`          | Paragraph                              | `<p>Paragraph</p>`                  |
-<!-- | `<ul>`         | Unordered list                         | `<ul><li>Element</li></ul>`         |
+| `<ul>`         | Unordered list                         | `<ul><li>Element</li></ul>`         |
 | `<ol>`         | Ordered list                           | `<ol><li>First Element</li></ol>`   |
 | `<li>`         | List item                              | `<li>List item</li>`                |
-| `<div>`        | Container element                      | `<div>Content</div>`                | -->
+<!-- | `<div>`        | Container element                      | `<div>Content</div>`                | -->
 
 
    
